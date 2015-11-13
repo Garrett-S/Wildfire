@@ -30,3 +30,28 @@ using Github:
     process starts again.
 * Once the pull request is approved, it is merged and the issue is closed as
   fixed.
+
+Getting Started
+===============
+
+This is a django app, we use Python and virtualenv
+
+```
+$ virtualenv venv
+Running virtualenv with interpreter /usr/bin/python2
+New python executable in venv/bin/python2
+Also creating executable in venv/bin/python
+Installing setuptools, pip...done.
+```
+
+Now source it:
+
+```
+$ source venv/bin/activate
+```
+
+Now install the requirements:
+
+```
+$ pip install -r requirements.txt
+```
